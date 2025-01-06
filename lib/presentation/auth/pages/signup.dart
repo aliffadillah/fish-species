@@ -75,7 +75,7 @@ class _SignUpPageState extends State<SignUp> {
       return;
     }
 
-    final url = Uri.parse('https://ikanapi-465762037323.asia-southeast2.run.app/api/users/register'); // Ganti dengan URL API Anda
+    final url = Uri.parse('https://ikanapi-465762037323.asia-southeast2.run.app/api/users/register');
     final headers = {'Content-Type': 'application/json'};
     final body = jsonEncode({
       'email': email,

@@ -39,7 +39,7 @@ class _LoginPageState extends State<JoinUs> {
 
     try {
       final response = await http.post(
-        Uri.parse('https://ikanapi-465762037323.asia-southeast2.run.app/api/users/login'), // Ganti dengan URL API login Anda
+        Uri.parse('https://ikanapi-465762037323.asia-southeast2.run.app/api/users/login'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({
           'email': email,
